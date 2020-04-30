@@ -6,15 +6,15 @@ SY H=24
 SY WT=(25.4/2)*1e-3
 SY B=9.8
 SY XRef = 0
-SY XDrv=3.722393
-SY XD1 = 5.39
+SY XDrv=3.733012
+SY XD1=5.49601
 SY XD2 = 9.8
 SY LRef = 10.82
-SY LDrv=10.54701
-SY LD1=10.02717
+SY LDrv=10.44066
+SY LD1=9.962051
 SY LD2 = 9.59
 SY WC = (25.4/2) * 1e-3
-SY WE = (8/2) * 1e-3
+SY WE = (12.75/2) * 1e-3
 GW	1	1	-B/2 + XDrv	-0.2	H	-B/2 + XDrv	0.2	H
 GC	0	0	1	WC	WC
 GW	2	7	-B/2 + XDrv	-0.2	H	-B/2 + XDrv	-LDrv/2	H
