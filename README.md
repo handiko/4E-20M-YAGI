@@ -35,12 +35,14 @@ Each of the element is constructed and simulated as a telescopic alumunium tubin
 ### Typical VSWR:
 (derived from simulation)
 
-|**Parameters**          |**Model 1**|**Model 2**|
-|:----------------------:|:---------:|:---------:|
-|**@7.0 MHz**            | 1:1.4     | 1:1.4     |
-|**@7.1 MHz**            | 1:1.3     | 1:1.15    |
-|**@7.2 MHz**            | 1:1.6     | 1:1.38    |
-|**VSWR Bandwidth 1:1.5**| 190 kHz   | 250 kHz   |
+|**Parameter**           |**VSWR**   |**Comments**                         |
+|:----------------------:|:---------:|:-----------------------------------:|
+|**14.0 MHz**            | 1:1.1     |                                     |
+|**14.1 MHz**            | 1:1.03    |                                     |
+|**14.2 MHz**            | 1:1.07    |                                     |
+|**14.3 MHz**            | 1:1.12    |                                     |
+|**14.35 MHz**           | 1:1.14    |                                     |
+|**VSWR Bandwidth 1:1.5**| n/a       | practically flat throughout 20m band|
 
 ### Typical Gain and F/B
 * **Forward Gain**: 13.9 dBi nominal
