@@ -1,6 +1,6 @@
 # 4 Elements Fullsize Yagi Antenna for 20m Band (7.5 m boomlength)
 Here is presented a model of 4 elements fullsize yagi antenna for 20m band.
-The model is optimized for the **boomlength of 7.5 meters** while keep maintain good **VSWR < 1:1.2 throughout 20m band**, gain, and F/B ratio. These can be achieved by using 3 elements basic model and adding a director which is closely coupled to the driven element. This added director actually become the first director. With this arrangement, the first director will resonates at the upper portion of the band while the driven element itself resonates at the lower portion of the band instead. Therefore, actually this is 3 element yagi with extra "driven element". The model is simulated for the installation height of 24 meters using 4nec-2 software package.
+The model is optimized for the **boomlength of 7.5 meters** while keep maintain good **VSWR < 1:1.2 throughout 20m band**, gain, and F/B ratio. These can be achieved by using 3 elements basic model and then adding a director which is closely coupled to the driven element. This added director actually become the first director. With this arrangement, the first director will resonates at the upper portion of the band while the driven element itself resonates at the lower portion of the band. Therefore, actually this is 3 element yagi with extra "driven element". The model is simulated for the installation height of 24 meters using 4nec-2 software package.
 
 ![](./NEC2-Models/4E-20-YAGI_7M5_3DStructure.png)
 
@@ -48,7 +48,7 @@ Each of the element is constructed and simulated as a telescopic alumunium tubin
 ![](./NEC2-Models/4E-20-YAGI_7M5_towerTop.NEC.png)
 ![](./NEC2-Models/4E-20-YAGI_7M5_2DPattern.png)
 
-## Propagation Map Simulation (VOACAP Online, Oct 2019 at 20 UTC, 80 W of transmit power)
+## Propagation Map Simulation (VOACAP Online, April 2020 at 12 UTC, 160 W of transmit power)
 ![](./NEC2-Models/4E-20-YAGI_7M5_Coverage_VOACAP.png)
 
 ## Contributing
