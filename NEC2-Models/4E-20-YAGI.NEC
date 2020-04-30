@@ -14,6 +14,7 @@ SY LD1=9.962051
 SY LD2 = 9.59
 SY WC = (25.4/2) * 1e-3
 SY WE = (12.75/2) * 1e-3
+SY WB = (2*25.4/2) * 1e-3
 GW	1	1	-B/2 + XDrv	-0.2	H	-B/2 + XDrv	0.2	H
 GC	0	0	1	WC	WC
 GW	2	7	-B/2 + XDrv	-0.2	H	-B/2 + XDrv	-LDrv/2	H
@@ -32,6 +33,8 @@ GW	8	7	-B/2 + XD2	0	H	-B/2 + XD2	-LD2/2	H
 GC	0	0	1	WC	WE
 GW	9	7	-B/2 + XD2	0	H	-B/2 + XD2	LD2/2	H
 GC	0	0	1	WC	WE
+GW	10	7	-B/2	0	H-0.1	B/2	0	H-0.1
+GC	0	0	1	WB	WB
 GE	1
 LD	5	0	0	0	37700000
 GN	2	0	0	0	17	0.015
