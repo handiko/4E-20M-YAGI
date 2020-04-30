@@ -1,11 +1,12 @@
 CM 
+CM forw: 78, 0 ; back: 78, 180
 CE
 SY freq=14.2
 SY H=24
 SY WT=(25.4/2)*1e-3
 SY B=9.8
 SY XRef = 0
-SY XDrv=3.722393
+SY XDrv=3.715845
 SY XD1 = 5.39
 SY XD2 = 9.8
 SY LRef = 10.82
@@ -37,5 +38,6 @@ LD	5	0	0	0	37700000
 GN	2	0	0	0	17	0.015
 EK
 EX	0	1	2	0	1	0	0
-FR	0	0	0	0	freq	0
-EN
+FR,0,1,0,0,14.2
+PQ -1
+PT -1
