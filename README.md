@@ -2,7 +2,7 @@
 Here is presented 2 models of 3 elements fullsize yagi antenna for 40m band.
 The **first model** is optimized for the **boomlength of 16 meters** while keep maintain good **VSWR < 1:1.5**, gain, and F/B ratio. The second model is optimized for **lowest VSWR while keep maintain the boom length below 17 meters** otherwise. All models are simulated for the installation height of about 24 meters using 4nec-2 software package.
 
-![](./panoramic.png)
+![](./NEC2-Models/4E-20-YAGI_7M5_3DStructure.png)
 
 ## Dimensions
 The picture below will tell thousands words. Please left click / right click + open in new tab for the full view of the picture.
@@ -19,6 +19,8 @@ The picture below will tell thousands words. Please left click / right click + o
 |**tip diameter**        | 6 mm (1/4 inch) | 6 mm (1/4 inch) |
 |**center diameter**     | 5 cm (2 inch)   | 5 cm (2 inch)   |
 |**boom diameter**       | 5 cm (2 inch)   | 5 cm (2 inch)   |
+
+![](./NEC2-Models/4E-20-YAGI_7M5_3DStructure2.png)
 
 ### About The Telescopic Element sizing
 Each of the element is constructed and simulated as a telescopic alumunium tubing. Telescopic taper sizing is consideres as **2 inch dia. alu. tubing at the center and 1/4 inch dia. alu. tubing at the tip** Taper schedule from the center to the tip can be adjusted to the alu. tubing dia. which can be purchased locally.
@@ -44,19 +46,12 @@ Each of the element is constructed and simulated as a telescopic alumunium tubin
 * **Model 1**: 13.0 dBi of forward gain & about 14 dB of F/B
 * **Model 2**: 13.2 dBi of forward gain & about 15 dB of F/B 
 
-## Simulation Results (Model 1)
-![](./model1_sim1.png)
-![](./model1_sim2_VSWR.png)
-![](./model1_sim3_patt.png)
-
-## Simulation Results (Model 2)
-![](./model2_sim1.png)
-![](./model2_sim2_VSWR.png)
-![](./model2_sim3_patt.png)
+## Simulation Results
+![](./NEC2-Models/4E-20-YAGI_7M5_towerTop.NEC.png)
+![](./NEC2-Models/4E-20-YAGI_7M5_2DPattern.png)
 
 ## Propagation Map Simulation (VOACAP Online, Oct 2019 at 20 UTC, 80 W of transmit power)
-(both models are virtually the same)
-![](./prop.png)
+![](./NEC2-Models/4E-20-YAGI_7M5_Coverage_VOACAP.png)
 
 ## Contributing
 1. Fork it [https://github.com/handiko/3E-40M-YAGI/fork](https://github.com/handiko/3E-40M-YAGI/fork)
