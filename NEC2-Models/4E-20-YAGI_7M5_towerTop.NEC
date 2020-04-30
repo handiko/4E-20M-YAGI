@@ -1,0 +1,44 @@
+CM 
+CE
+SY freq=14.074
+SY H=24
+SY WT=(25.4/2)*1e-3
+SY B=7.5
+SY XRef = 0
+SY XDrv=3.036684
+SY XD1=3.883658
+SY XD2 = B
+SY LRef = 10.82
+SY LDrv=10.53917
+SY LD1=9.977676
+SY LD2 = 9.59
+SY WC = (25.4/2) * 1e-3
+SY WE = ((3/8) * 25.4/2) * 1e-3
+SY WB = (2*25.4/2) * 1e-3
+GW	1	1	-B/2 + XDrv	-0.2	H	-B/2 + XDrv	0.2	H
+GC	0	0	1	WC	WC
+GW	2	7	-B/2 + XDrv	-0.2	H	-B/2 + XDrv	-LDrv/2	H
+GC	0	0	1	WC	WE
+GW	3	7	-B/2 + XDrv	0.2	H	-B/2 + XDrv	LDrv/2	H
+GC	0	0	1	WC	WE
+GW	4	7	-B/2 + XRef	0	H	-B/2 + XRef	-LRef/2	H
+GC	0	0	1	WC	WE
+GW	5	7	-B/2 + XRef	0	H	-B/2 + XRef	LRef/2	H
+GC	0	0	1	WC	WE
+GW	6	7	-B/2 + XD1	0	H	-B/2 + XD1	-LD1/2	H
+GC	0	0	1	WC	WE
+GW	7	7	-B/2 + XD1	0	H	-B/2 + XD1	LD1/2	H
+GC	0	0	1	WC	WE
+GW	8	7	-B/2 + XD2	0	H	-B/2 + XD2	-LD2/2	H
+GC	0	0	1	WC	WE
+GW	9	7	-B/2 + XD2	0	H	-B/2 + XD2	LD2/2	H
+GC	0	0	1	WC	WE
+GW	10	7	-B/2	0	H-0.1	B/2	0	H-0.1
+GC	0	0	1	WB	WB
+GE	1
+LD	5	0	0	0	37700000
+GN	2	0	0	0	17	0.015
+EK
+EX	0	1	2	0	1	0	0
+FR	0	0	0	0	freq	0
+EN
