@@ -20,6 +20,12 @@ The picture below will tell thousands words. Please left click / right click + o
 |**center diameter**     | 5 cm (2 inch)   | 5 cm (2 inch)   |
 |**boom diameter**       | 5 cm (2 inch)   | 5 cm (2 inch)   |
 
+## 4NEC-2 Models Download
+Right Click -> Save As, Then change the file type as **.NEC**
+Open with 4NEC-2 software.
+* [4 Element 20m Yagi without tower](https://raw.githubusercontent.com/handiko/4E-20M-YAGI/master/NEC2-Models/4E-20-YAGI_7M5.NEC)
+* [4 Element 20m Yagi with tower](https://raw.githubusercontent.com/handiko/4E-20M-YAGI/master/NEC2-Models/4E-20-YAGI_7M5_towerTop.NEC)
+
 ![](./NEC2-Models/4E-20-YAGI_7M5_3DStructure2.png)
 
 ### About The Telescopic Element sizing
